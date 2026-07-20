@@ -1,0 +1,26 @@
+{
+  "name": "Reolink MQTT Bridge",
+  "version": "1.0.0",
+  "slug": "reolink_mqtt_bridge",
+  "description": "Liest KI-Events der RLC-520A aus und sendet sie an MQTT.",
+  "startup": "services",
+  "boot": "auto",
+  "ports": {},
+  "map": ["config"],
+  "options": {
+    "camera_host": "192.168.2.194",
+    "camera_user": "admin",
+    "camera_pass": "DEIN_PASSWORT",
+    "mqtt_host": "127.0.0.1",
+    "mqtt_user": "mqtt",
+    "mqtt_pass": "MQTT_PASSWORT"
+  },
+  "schema": {
+    "camera_host": "str",
+    "camera_user": "str",
+    "camera_pass": "str",
+    "mqtt_host": "str",
+    "mqtt_user": "str",
+    "mqtt_pass": "str"
+  }
+}
