@@ -2,17 +2,12 @@
   "domain": "reolink_mqtt_app",
   "name": "Reolink MQTT Bridge",
   "version": "1.0.0",
-  "documentation": "https://github.com/bloodybeginner-spec/reolink-mqtt-addon",
+  "documentation": "https://github.com/bloodybeginner-spec/reolink-mqtt-app",
   "requirements": [
     "requests",
     "paho-mqtt"
   ],
-  "config": {
-    "camera_host": "",
-    "camera_user": "",
-    "camera_pass": "",
-    "mqtt_host": "",
-    "mqtt_user": "",
-    "mqtt_pass": ""
-  }
+  "codeowners": [
+    "@bloodybeginner-spec"
+  ]
 }
