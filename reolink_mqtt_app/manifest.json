@@ -1,0 +1,13 @@
+{
+  "domain": "reolink_mqtt_app",
+  "name": "Reolink MQTT Bridge",
+  "version": "1.0.0",
+  "documentation": "https://github.com/bloodybeginner-spec/reolink-mqtt-app",
+  "requirements": [
+    "requests",
+    "paho-mqtt"
+  ],
+  "codeowners": [
+    "@bloodybeginner-spec"
+  ]
+}
